@@ -15,7 +15,7 @@ let a = 10,
   console.log(c)
 
   console.log('')
-  
+
   console.log("a =",a)
   console.log("b =",b)
   console.log("c =",c)
@@ -26,3 +26,13 @@ let a = 10,
   console.log({ b })
   console.log({ c })
   
+  console.warn({ a })
+
+  console.error({ b })
+
+console.table({ a, b, c })
+
+x = 'Juan'
+y = 'valencia'
+
+console.log(x,y)
